@@ -29,12 +29,11 @@ warnings.filterwarnings("ignore")
 ### Title and description for your Streamlit app
 #---------------------------------------------------------------------------------------------------------------------------------
 #import custom_style()
-#image = Image.open('Image_Clariant.png')
-st.set_page_config(page_title="Summarization | Generation | Translation | Chatbot | v0.1",
+st.set_page_config(page_title="Summarization | Generation | Translation | Chatbot",
                    layout="wide",
                    initial_sidebar_state="auto",)
 #----------------------------------------
-st.title("Summarization | Generation | Translation | Chatbot | v0.1")
+st.title(f""":rainbow[Summarization | Generation | Translation | Chatbot | v0.1]""")
 st.markdown('Developed by : <a href="mailto:avijit.mba18@gmail.com">Avijit Chakraborty</a>', 
             unsafe_allow_html=True)
 st.info('**Disclaimer : :blue[Thank you for visiting the app] |  Click the :blue[sidebar] to follow the instructions to start the applications.**', icon="ℹ️")
